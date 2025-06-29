@@ -1,0 +1,29 @@
+@import '$lib/styles/responsive.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .hero-section {
+    @apply relative min-h-screen flex items-center justify-center overflow-hidden;
+  }
+  
+  .hero-content {
+    @apply relative z-10 text-center px-4 sm:px-6 lg:px-8;
+  }
+  
+  .hero-background {
+    @apply absolute inset-0 w-full h-full;
+  }
+} 

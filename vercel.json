@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "src/routes/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
+} 
